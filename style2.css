@@ -8,7 +8,7 @@
 }
 
 .container {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     background: linear-gradient(120deg, #0e3b58, #2ca751);
     height: 100vh;
@@ -16,9 +16,10 @@
 }
 
 .centor {
+    margin: -100px -150px -100px;
     position: absolute;
     top: 35%;
-    left: 50%;
+    left: 50%;<link rel="icon" href="hhh.ico" type="image/x-icon">
     transform: translate(-50%);
     width: 400px;
     background: rgb(17, 11, 100);
@@ -45,7 +46,7 @@ form .txt_ {
 }
 
 .pass {
-    margin: -5px 10 20px 5px;
+    margin: -5px 0 20px 5px;
     color: #a6a6a6;
     cursor: pointer;
 }
@@ -54,17 +55,19 @@ form .txt_ {
     text-decoration: underline;
 }
 
-input[type="submit"] {
+.B{
+    margin: -15px 150px 5px;
     width: 100%;
-    height: 50px;
+    height: 100px;
     border: 1px solid;
     background: #2656d9;
-    border-radius: 25px;
+    border-radius: 55px;
     font-size: 18px;
     color: #e9f4fb;
     font-weight: 700;
     cursor: pointer;
     outline: none;
+    padding: 5PX 10PX;
 }
 
 .signup_link {
@@ -76,7 +79,7 @@ input[type="submit"] {
 
 .signup_link a {
     color: #2691d9;
-    text-decoration: none;
+    text-decoration: none;<link rel="icon" href="hhh.ico" type="image/x-icon">
 }
 
 .signup_link a:hover {
@@ -88,9 +91,11 @@ top: 25%;
 left: 25%;
 transform: translate(-10px);
 width: 25px;
-background: rgb(13, 26, 143);
+margin: -5px 5 20px 5px;
+    color: #160f80;
+    cursor: pointer;
 }
-.B {
+/*.B {
     border-radius: 13px;
     margin: 10px;
    top: 25%;
